@@ -9,6 +9,10 @@ body
 {
     height: 100vh;
     font-family: 'Poppins';
+    background: gainsboro;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-family: monospace;
 }
 
 .webgl
@@ -17,4 +21,21 @@ body
     top: 0;
     left: 0;
     outline: none;
+}
+
+.content{
+    display: grid;
+    place-content: center;
+}
+
+span{
+    color: rgb(112, 181, 10);
+    font-weight: bolder;
+    font-size: 80px;
+    opacity: 0;
+}
+
+p{
+    font-size: 60px;
+    opacity: 0;
 }

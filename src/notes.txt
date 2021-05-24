@@ -1,0 +1,4 @@
+install and import gsap
+
+1- import gsap from 'gssap'
+2- npm i gsap
